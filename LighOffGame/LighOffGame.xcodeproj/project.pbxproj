@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49CB07741C2667DD00D32CC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CB07731C2667DD00D32CC5 /* main.m */; };
+		49CB07771C2667DD00D32CC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CB07761C2667DD00D32CC5 /* AppDelegate.m */; };
+		49CB077A1C2667DD00D32CC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CB07791C2667DD00D32CC5 /* ViewController.m */; };
+		49CB077D1C2667DD00D32CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CB077B1C2667DD00D32CC5 /* Main.storyboard */; };
+		49CB077F1C2667DD00D32CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CB077E1C2667DD00D32CC5 /* Assets.xcassets */; };
+		49CB07821C2667DD00D32CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CB07801C2667DD00D32CC5 /* LaunchScreen.storyboard */; };
+		49CB078D1C2667DD00D32CC5 /* LighOffGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CB078C1C2667DD00D32CC5 /* LighOffGameTests.m */; };
+		49CB07981C2667DD00D32CC5 /* LighOffGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CB07971C2667DD00D32CC5 /* LighOffGameUITests.m */; };
+		49CB07A71C266ED400D32CC5 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CB07A61C266ED400D32CC5 /* ImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49CB07891C2667DD00D32CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CB07671C2667DC00D32CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CB076E1C2667DC00D32CC5;
+			remoteInfo = LighOffGame;
+		};
+		49CB07941C2667DD00D32CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CB07671C2667DC00D32CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CB076E1C2667DC00D32CC5;
+			remoteInfo = LighOffGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49CB076F1C2667DC00D32CC5 /* LighOffGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighOffGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CB07731C2667DD00D32CC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49CB07751C2667DD00D32CC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49CB07761C2667DD00D32CC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49CB07781C2667DD00D32CC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49CB07791C2667DD00D32CC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49CB077C1C2667DD00D32CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49CB077E1C2667DD00D32CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49CB07811C2667DD00D32CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49CB07831C2667DD00D32CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CB07881C2667DD00D32CC5 /* LighOffGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighOffGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CB078C1C2667DD00D32CC5 /* LighOffGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighOffGameTests.m; sourceTree = "<group>"; };
+		49CB078E1C2667DD00D32CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CB07931C2667DD00D32CC5 /* LighOffGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighOffGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CB07971C2667DD00D32CC5 /* LighOffGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighOffGameUITests.m; sourceTree = "<group>"; };
+		49CB07991C2667DD00D32CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CB07A51C266ED400D32CC5 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		49CB07A61C266ED400D32CC5 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49CB076C1C2667DC00D32CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CB07851C2667DD00D32CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CB07901C2667DD00D32CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49CB07661C2667DC00D32CC5 = {
+			isa = PBXGroup;
+			children = (
+				49CB07711C2667DC00D32CC5 /* LighOffGame */,
+				49CB078B1C2667DD00D32CC5 /* LighOffGameTests */,
+				49CB07961C2667DD00D32CC5 /* LighOffGameUITests */,
+				49CB07701C2667DC00D32CC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49CB07701C2667DC00D32CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49CB076F1C2667DC00D32CC5 /* LighOffGame.app */,
+				49CB07881C2667DD00D32CC5 /* LighOffGameTests.xctest */,
+				49CB07931C2667DD00D32CC5 /* LighOffGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49CB07711C2667DC00D32CC5 /* LighOffGame */ = {
+			isa = PBXGroup;
+			children = (
+				49CB07751C2667DD00D32CC5 /* AppDelegate.h */,
+				49CB07761C2667DD00D32CC5 /* AppDelegate.m */,
+				49CB07781C2667DD00D32CC5 /* ViewController.h */,
+				49CB07791C2667DD00D32CC5 /* ViewController.m */,
+				49CB07A51C266ED400D32CC5 /* ImageView.h */,
+				49CB07A61C266ED400D32CC5 /* ImageView.m */,
+				49CB077B1C2667DD00D32CC5 /* Main.storyboard */,
+				49CB077E1C2667DD00D32CC5 /* Assets.xcassets */,
+				49CB07801C2667DD00D32CC5 /* LaunchScreen.storyboard */,
+				49CB07831C2667DD00D32CC5 /* Info.plist */,
+				49CB07721C2667DC00D32CC5 /* Supporting Files */,
+			);
+			path = LighOffGame;
+			sourceTree = "<group>";
+		};
+		49CB07721C2667DC00D32CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49CB07731C2667DD00D32CC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49CB078B1C2667DD00D32CC5 /* LighOffGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				49CB078C1C2667DD00D32CC5 /* LighOffGameTests.m */,
+				49CB078E1C2667DD00D32CC5 /* Info.plist */,
+			);
+			path = LighOffGameTests;
+			sourceTree = "<group>";
+		};
+		49CB07961C2667DD00D32CC5 /* LighOffGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49CB07971C2667DD00D32CC5 /* LighOffGameUITests.m */,
+				49CB07991C2667DD00D32CC5 /* Info.plist */,
+			);
+			path = LighOffGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49CB076E1C2667DC00D32CC5 /* LighOffGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CB079C1C2667DD00D32CC5 /* Build configuration list for PBXNativeTarget "LighOffGame" */;
+			buildPhases = (
+				49CB076B1C2667DC00D32CC5 /* Sources */,
+				49CB076C1C2667DC00D32CC5 /* Frameworks */,
+				49CB076D1C2667DC00D32CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LighOffGame;
+			productName = LighOffGame;
+			productReference = 49CB076F1C2667DC00D32CC5 /* LighOffGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49CB07871C2667DD00D32CC5 /* LighOffGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CB079F1C2667DD00D32CC5 /* Build configuration list for PBXNativeTarget "LighOffGameTests" */;
+			buildPhases = (
+				49CB07841C2667DD00D32CC5 /* Sources */,
+				49CB07851C2667DD00D32CC5 /* Frameworks */,
+				49CB07861C2667DD00D32CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CB078A1C2667DD00D32CC5 /* PBXTargetDependency */,
+			);
+			name = LighOffGameTests;
+			productName = LighOffGameTests;
+			productReference = 49CB07881C2667DD00D32CC5 /* LighOffGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49CB07921C2667DD00D32CC5 /* LighOffGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CB07A21C2667DD00D32CC5 /* Build configuration list for PBXNativeTarget "LighOffGameUITests" */;
+			buildPhases = (
+				49CB078F1C2667DD00D32CC5 /* Sources */,
+				49CB07901C2667DD00D32CC5 /* Frameworks */,
+				49CB07911C2667DD00D32CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CB07951C2667DD00D32CC5 /* PBXTargetDependency */,
+			);
+			name = LighOffGameUITests;
+			productName = LighOffGameUITests;
+			productReference = 49CB07931C2667DD00D32CC5 /* LighOffGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49CB07671C2667DC00D32CC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lanou.com;
+				TargetAttributes = {
+					49CB076E1C2667DC00D32CC5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					49CB07871C2667DD00D32CC5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49CB076E1C2667DC00D32CC5;
+					};
+					49CB07921C2667DD00D32CC5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49CB076E1C2667DC00D32CC5;
+					};
+				};
+			};
+			buildConfigurationList = 49CB076A1C2667DC00D32CC5 /* Build configuration list for PBXProject "LighOffGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49CB07661C2667DC00D32CC5;
+			productRefGroup = 49CB07701C2667DC00D32CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49CB076E1C2667DC00D32CC5 /* LighOffGame */,
+				49CB07871C2667DD00D32CC5 /* LighOffGameTests */,
+				49CB07921C2667DD00D32CC5 /* LighOffGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49CB076D1C2667DC00D32CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CB07821C2667DD00D32CC5 /* LaunchScreen.storyboard in Resources */,
+				49CB077F1C2667DD00D32CC5 /* Assets.xcassets in Resources */,
+				49CB077D1C2667DD00D32CC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CB07861C2667DD00D32CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CB07911C2667DD00D32CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49CB076B1C2667DC00D32CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CB07A71C266ED400D32CC5 /* ImageView.m in Sources */,
+				49CB077A1C2667DD00D32CC5 /* ViewController.m in Sources */,
+				49CB07771C2667DD00D32CC5 /* AppDelegate.m in Sources */,
+				49CB07741C2667DD00D32CC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CB07841C2667DD00D32CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CB078D1C2667DD00D32CC5 /* LighOffGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CB078F1C2667DD00D32CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CB07981C2667DD00D32CC5 /* LighOffGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49CB078A1C2667DD00D32CC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CB076E1C2667DC00D32CC5 /* LighOffGame */;
+			targetProxy = 49CB07891C2667DD00D32CC5 /* PBXContainerItemProxy */;
+		};
+		49CB07951C2667DD00D32CC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CB076E1C2667DC00D32CC5 /* LighOffGame */;
+			targetProxy = 49CB07941C2667DD00D32CC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49CB077B1C2667DD00D32CC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49CB077C1C2667DD00D32CC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49CB07801C2667DD00D32CC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49CB07811C2667DD00D32CC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49CB079A1C2667DD00D32CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49CB079B1C2667DD00D32CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49CB079D1C2667DD00D32CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = LighOffGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou.LighOffGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49CB079E1C2667DD00D32CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = LighOffGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou.LighOffGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49CB07A01C2667DD00D32CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LighOffGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou.LighOffGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LighOffGame.app/LighOffGame";
+			};
+			name = Debug;
+		};
+		49CB07A11C2667DD00D32CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LighOffGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou.LighOffGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LighOffGame.app/LighOffGame";
+			};
+			name = Release;
+		};
+		49CB07A31C2667DD00D32CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LighOffGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou.LighOffGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LighOffGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49CB07A41C2667DD00D32CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LighOffGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou.LighOffGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LighOffGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49CB076A1C2667DC00D32CC5 /* Build configuration list for PBXProject "LighOffGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CB079A1C2667DD00D32CC5 /* Debug */,
+				49CB079B1C2667DD00D32CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CB079C1C2667DD00D32CC5 /* Build configuration list for PBXNativeTarget "LighOffGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CB079D1C2667DD00D32CC5 /* Debug */,
+				49CB079E1C2667DD00D32CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CB079F1C2667DD00D32CC5 /* Build configuration list for PBXNativeTarget "LighOffGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CB07A01C2667DD00D32CC5 /* Debug */,
+				49CB07A11C2667DD00D32CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CB07A21C2667DD00D32CC5 /* Build configuration list for PBXNativeTarget "LighOffGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CB07A31C2667DD00D32CC5 /* Debug */,
+				49CB07A41C2667DD00D32CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49CB07671C2667DC00D32CC5 /* Project object */;
+}
